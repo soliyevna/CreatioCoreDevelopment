@@ -434,8 +434,15 @@
 	</ItemGroup>
 	<ItemGroup Label="Standalone package external assembly references" />
 	<ItemGroup Label="Entity Files">
+		<Compile Remove="$(RelativePkgFolderPath)/DevPack/Schemas/UsrRealtyClassicFile/UsrRealtyClassicFile.cs" Condition="Exists('$(RelativePkgFolderPath)/DevPack/Schemas/UsrRealtyClassicFile/UsrRealtyClassicFile.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DevPack/Schemas/Account/Account.cs" Condition="Exists('$(RelativePkgFolderPath)/DevPack/Schemas/Account/Account.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevPack/Schemas/UsrRealtyClassicInFolder/UsrRealtyClassicInFolder.cs" Condition="Exists('$(RelativePkgFolderPath)/DevPack/Schemas/UsrRealtyClassicInFolder/UsrRealtyClassicInFolder.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevPack/Schemas/UsrRealtyOfferTypeClassic/UsrRealtyOfferTypeClassic.cs" Condition="Exists('$(RelativePkgFolderPath)/DevPack/Schemas/UsrRealtyOfferTypeClassic/UsrRealtyOfferTypeClassic.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevPack/Schemas/UsrRealtyClassicFolder/UsrRealtyClassicFolder.cs" Condition="Exists('$(RelativePkgFolderPath)/DevPack/Schemas/UsrRealtyClassicFolder/UsrRealtyClassicFolder.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DevPack/Schemas/UsrRealtyTypeClassic/UsrRealtyTypeClassic.cs" Condition="Exists('$(RelativePkgFolderPath)/DevPack/Schemas/UsrRealtyTypeClassic/UsrRealtyTypeClassic.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevPack/Schemas/UsrRealtyClassicInTag/UsrRealtyClassicInTag.cs" Condition="Exists('$(RelativePkgFolderPath)/DevPack/Schemas/UsrRealtyClassicInTag/UsrRealtyClassicInTag.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevPack/Schemas/UsrRealtyClassic/UsrRealtyClassic.cs" Condition="Exists('$(RelativePkgFolderPath)/DevPack/Schemas/UsrRealtyClassic/UsrRealtyClassic.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevPack/Schemas/UsrRealtyClassicTag/UsrRealtyClassicTag.cs" Condition="Exists('$(RelativePkgFolderPath)/DevPack/Schemas/UsrRealtyClassicTag/UsrRealtyClassicTag.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DevPack/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs" Condition="Exists('$(RelativePkgFolderPath)/DevPack/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs')" />
 	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
