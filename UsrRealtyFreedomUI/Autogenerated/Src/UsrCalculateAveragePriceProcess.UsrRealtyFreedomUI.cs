@@ -8,6 +8,7 @@
 	using System.Globalization;
 	using System.Text;
 	using Terrasoft.Common;
+	using Terrasoft.Configuration;
 	using Terrasoft.Core;
 	using Terrasoft.Core.Configuration;
 	using Terrasoft.Core.DB;
@@ -62,8 +63,14 @@
 			
 			Set("AvgPriceUSDParameter", result);
 			
+			string name = GiveMeYourName();
+			
 			return true;
 		}
+
+			protected string GiveMeYourName() {
+				return "My name is Zulpi :)";
+			}
 
 		#endregion
 

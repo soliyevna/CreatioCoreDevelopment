@@ -8,10 +8,12 @@
 			<Item Name="Columns.UsrCommission.Caption" Value="Commission" />
 			<Item Name="Columns.UsrCurrency.Caption" Value="Currency" />
 			<Item Name="Columns.UsrManager.Caption" Value="Manager" />
+			<Item Name="Columns.UsrMinutesLeft.Caption" Value="Minutes left" />
 			<Item Name="Columns.UsrName.Caption" Value="Name" />
 			<Item Name="Columns.UsrNumber.Caption" Value="Number" />
 			<Item Name="Columns.UsrOfferType.Caption" Value="Offer type" />
 			<Item Name="Columns.UsrPrice.Caption" Value="Price" />
+			<Item Name="Columns.UsrTotalReservedMinutes.Caption" Value="Total reserved minutes" />
 			<Item Name="Columns.UsrType.Caption" Value="Type" />
 		</Items>
 	</Group>

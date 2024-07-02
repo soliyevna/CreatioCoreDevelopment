@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "baead194-d631-4144-a807-247b54b6560c",
+    "Name": "UsrCalculateRemainingMinutes",
+    "ModifiedOnUtc": "\/Date(1719931583000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": " Calculate Remaining Minutes",
+    "DependsOn": []
+  }
+}
