@@ -433,6 +433,7 @@
 		<Compile Remove="$(RelativePkgFolderPath)/UsrRealtyFreedomUI/Schemas/UsrRealtyTypeFreedomUI/UsrRealtyTypeFreedomUI.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrRealtyFreedomUI/Schemas/UsrRealtyTypeFreedomUI/UsrRealtyTypeFreedomUI.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrRealtyFreedomUI/Schemas/UsrRealtyOfferTypeFreedomUI/UsrRealtyOfferTypeFreedomUI.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrRealtyFreedomUI/Schemas/UsrRealtyOfferTypeFreedomUI/UsrRealtyOfferTypeFreedomUI.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrRealtyFreedomUI/Schemas/UsrRealtyFreedomUI/UsrRealtyFreedomUI.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrRealtyFreedomUI/Schemas/UsrRealtyFreedomUI/UsrRealtyFreedomUI.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrRealtyFreedomUI/Schemas/UsrGoldPrice/UsrGoldPrice.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrRealtyFreedomUI/Schemas/UsrGoldPrice/UsrGoldPrice.cs')" />
 	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">

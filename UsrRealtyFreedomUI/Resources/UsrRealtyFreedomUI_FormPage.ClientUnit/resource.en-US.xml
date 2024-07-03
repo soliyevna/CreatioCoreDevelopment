@@ -18,6 +18,8 @@
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_ea0gbgi_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_9qir5y9_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_xbhnj4a_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.MenuItem_f5zlhom_caption.Value" Value="Add visits" />
+			<Item Name="LocalizableStrings.MenuItem_g60deb6_caption.Value" Value="Run web service" />
 			<Item Name="LocalizableStrings.MenuItem_nurzbuk_caption.Value" Value="Calculate average price" />
 			<Item Name="LocalizableStrings.NumberInput_xljnthd_label.Value" Value="Number" />
 			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less then 50.0" />

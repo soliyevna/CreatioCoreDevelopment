@@ -8,6 +8,11 @@
     "ProjectPath": "Files/DevPack.csproj",
     "DependsOn": [
       {
+        "UId": "53b4285b-6ec0-4349-8a55-2cf41f01f2d7",
+        "Name": "UsrRealtyFreedomUI",
+        "Type": 1
+      },
+      {
         "UId": "fe1effeb-74f2-42c5-b5e1-dfe0313b86bf",
         "PackageVersion": "7.8.0",
         "Name": "Studio"
